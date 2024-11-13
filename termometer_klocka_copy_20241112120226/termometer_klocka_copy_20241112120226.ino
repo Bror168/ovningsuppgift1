@@ -18,7 +18,6 @@ void setup() {
   rtc.adjust(DateTime(F(__DATE__),F(__TIME__)));
   myservo.attach(2);
   //starts some proceses
-
 }
 
 void loop() {
